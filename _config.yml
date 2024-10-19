@@ -3,3 +3,6 @@ description: "This is a portfolio website created with jekyll from scratch"
 title: "this is a title"
 email: "myEmail@mail.com"
 background-image: "jeremy-bishop-G9i_plbfDgk-unsplash.jpg"
+
+baseurl: "" # Leave blank for GitHub Pages root
+url: "https://vitaliiradzividlo.github.io" # Your website URL
