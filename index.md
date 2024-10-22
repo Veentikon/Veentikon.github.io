@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index/
+# permalink: /index/
 ---
 
 Hello, welcome to my website portfolio
