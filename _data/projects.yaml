@@ -5,7 +5,7 @@
       description: The logo for this project is for Puppet, and comes from the "assets/images/projects" directory.
       github: https://github.com/Veentikon/vitaliiradzividlo.github.io
       # pypi: example
-      image: jekyll_(software)_Logo.png
+      image: Jekyll_(software)_Logo.png
 
     - name: random-name-generator
       description: A generator to help gamers with creating cool sounding nicknames for characters.
@@ -20,7 +20,7 @@
 
 
 - name: Misc
-  # projects:
+  projects:
   #   - name: Example
   #     description: This project uses Font Awesome icons and is on Dockerhub.
   #     github: Example/Example
