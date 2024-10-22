@@ -4,31 +4,32 @@
     - name: portfolio website
       description: The logo for this project is for Puppet, and comes from the "assets/images/projects" directory.
       github: https://github.com/Veentikon/vitaliiradzividlo.github.io
-      pypi: example
-      image: puppet.png
+      # pypi: example
+      image: jekyll_(software)_Logo.png
 
     - name: random-name-generator
-      description: This project can be installed from npm.
-      github: Example/Example
-      npm: Example
+      description: A generator to help gamers with creating cool sounding nicknames for characters.
+      github: https://github.com/Veentikon/random-word-generator
+      image: python-logo-only.png
+      # npm: Example
 
-    - name: Example
-      description: This project can be installed from pypi.
-      github: Example/Example
-      pypi: Example
+    # - name: Example
+    #   description: This project can be installed from pypi.
+    #   github: Example/Example
+    #   pypi: Example
 
 
 - name: Misc
-  projects:
-    - name: Example
-      description: This project uses Font Awesome icons and is on Dockerhub.
-      github: Example/Example
-      dockerhub: Example/Example
-      icon: fas fa-file-medical-alt
+  # projects:
+  #   - name: Example
+  #     description: This project uses Font Awesome icons and is on Dockerhub.
+  #     github: Example/Example
+  #     dockerhub: Example/Example
+  #     icon: fas fa-file-medical-alt
 
-    - name: Example
-      description: This Wordpress Plugin is actually just an example project.
-      platform: Wordpress
-      github: Example/Example
-      wordpress: Example
-      icon: fab fa-wordpress
+  #   - name: Example
+  #     description: This Wordpress Plugin is actually just an example project.
+  #     platform: Wordpress
+  #     github: Example/Example
+  #     wordpress: Example
+  #     icon: fab fa-wordpress
