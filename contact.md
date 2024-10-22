@@ -1,4 +1,4 @@
 ---
 layout: default
-permalink: /contact/
+# permalink: /contact/
 ---
