@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: https://Veentikon.github.io
+permalink: /index/
 ---
 
 Hello, welcome to my website portfolio
