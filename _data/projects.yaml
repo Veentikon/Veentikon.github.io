@@ -2,7 +2,7 @@
   icon: fas fa-terminal
   projects:
     - name: portfolio website
-      description: The logo for this project is for Puppet, and comes from the "assets/images/projects" directory.
+      description: Portfolio website built with jekyll, a static site generator, and hosted on github pages.
       github: https://github.com/Veentikon/vitaliiradzividlo.github.io
       # pypi: example
       image: Jekyll_(software)_Logo.png
