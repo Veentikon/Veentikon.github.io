@@ -1,0 +1,34 @@
+@use 'variables';
+
+/*contain setting for size will ensure an image is displayed fully, however there might be open spaces left*/
+/*cover setting ensures that the full container is covered by an image, however it might cut an image */
+
+// this setting affects the wrapper element, the outermost layer for the website
+.site-background {
+    background-image: url('/assets/images/isai-ramos-_3SFFsWqCVg-unsplash.jpg'); /* Adjust the path to your image */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed;
+    min-height: 100vh; /* Ensures the background covers at least the full viewport height */
+    padding: 0;
+}
+
+.site-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: variables.$base-text-color; /* Use the namespace to access the variable */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: variables.$base-text-color; /* Use the namespace to access the variable */
+}

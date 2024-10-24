@@ -8,7 +8,7 @@
       image: Jekyll_(software)_Logo.png
 
     - name: random-name-generator
-      description: A generator to help gamers with creating cool sounding nicknames for characters.
+      description: A GUI generator application to help gamers with creating original nicknames for their characters.
       github: https://github.com/Veentikon/random-word-generator
       image: python-logo-only.png
       # npm: Example

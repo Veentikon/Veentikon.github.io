@@ -1,0 +1,3 @@
+Figure out how to make/add logo/website name in a tab
+Update the file structure (mainly scss files)
+
