@@ -6,3 +6,6 @@ background-image: "jeremy-bishop-G9i_plbfDgk-unsplash.jpg"
 
 baseurl: "" # Leave blank for GitHub Pages root
 url: "https://Veentikon.github.io" # Your website URL
+
+sass:
+  style: compressed
