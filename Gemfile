@@ -5,3 +5,5 @@ gem 'logger'
 gem 'csv'
 gem 'ostruct'
 gem 'base64'
+
+source "https://rubygems.org"
