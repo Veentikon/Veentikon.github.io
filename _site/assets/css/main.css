@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 10;
+  font-weight: 700;
   src: url("https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff") format("woff");
 }
 /*contain setting for size will ensure an image is displayed fully, however there might be open spaces left*/
