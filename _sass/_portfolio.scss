@@ -1,0 +1,67 @@
+@import 'variables';
+
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: variables.$primary-text-color;
+  // background-image: variables.$background-image;
+}
+  
+.project-category {
+  width: 48%;
+  margin-bottom: 20px;
+}
+  
+.project-category h2 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: variables.$base-text-color;
+  margin-bottom: 15px;
+}
+  
+.project-category h2 i {
+  margin-right: 10px;
+}
+  
+.project-box {
+  border: 1px solid variables.$footer-background-color;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: variables.$footer-background-color;
+}
+  
+.project-box h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: variables.$primary-text-color;
+}
+  
+.project-box p {
+  font-size: 14px;
+  color: variables.$primary-text-color;
+}
+  
+.project-box a {
+  color: variables.$hover-color;
+  text-decoration: none;
+}
+  
+.project-box a:hover {
+  text-decoration: underline;
+}
+  
+.project-image {
+  max-width: 100px;
+  height: auto;
+  margin: 10px 0;
+}
+  
+.project-box i {
+  font-size: 24px;
+  color: variables.$hover-color;
+  margin-top: 10px;
+}
+  

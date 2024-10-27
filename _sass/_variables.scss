@@ -1,0 +1,21 @@
+// Text
+$base-text-color: #fff;
+$primary-text-color: #000;
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700; // Bold weight
+  src: url('https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff2') format('woff2'),
+       url('https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff') format('woff');
+}
+
+
+// Background
+$header-background-color: rgba(62, 148, 89, 0.689);
+$footer-background-color: #f8f9fa82;
+$background-image: '/assets/images/isai-ramos-_3SFFsWqCVg-unsplash.jpg';
+$button-background-color: #007bff;
+
+// Footer
+$hover-color: #007bff;
