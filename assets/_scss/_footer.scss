@@ -1,0 +1,48 @@
+@import 'variables';
+
+.site-footer {
+    background-color: $footer-background-color;
+    padding: 2rem 0;
+    text-align: center;
+    color: $primary-text-color;
+
+    .footer-content {
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .social-links {
+        list-style: none;
+        padding: 0;
+        margin: 0.5rem 0 0;
+        display:flex;
+        justify-content: center;
+
+        li {
+            margin: 0 0.5rem;
+
+            a {
+                color: inherit;
+                font-size: 1.5rem;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: $hover-color;
+                }
+            }
+        }
+    }
+
+    .footer-credits {
+        font-size: 0.875rem;
+        a {
+            color: inherit;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+}
