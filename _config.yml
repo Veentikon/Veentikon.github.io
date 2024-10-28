@@ -1,8 +1,15 @@
+theme: null
+
 author: "Vitalii Radzividlo"
 description: "This is a portfolio website created with jekyll from scratch" 
 title: "My Portfolio"
 email: "myEmail@mail.com"
-background-image: "jeremy-bishop-G9i_plbfDgk-unsplash.jpg"
 
 baseurl: "" # Leave blank for GitHub Pages root
 url: "https://Veentikon.github.io" # Your website URL
+
+
+sass:
+  sass_dir: assets/_scss
+  css_dir: assets/css
+
