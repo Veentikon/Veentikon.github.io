@@ -8,13 +8,11 @@ layout: default
 </h2>
 
 <br>
-
 <h2> Skills and Experience </h2>
 
-Over the course of my academic journey, I’ve explored a variety of fields within computer science, which has given me a broad skill set and a strong foundation for problem-solving in different domains: Cloud Computing, Web Development, Artificial Intelligence, GUI app development
+Over the course of my academic journey, I’ve explored a variety of fields within computer science, which has given me a broad skill set and a strong foundation for problem-solving in different domains: Cloud Computing, Web Development, Artificial Intelligence, GUI app development and Cybersecurity
 
 <br>
-
 <h2> Full Stack Web Development </h2>
 I have experience building web applications using Node.js, React, and Docker. My understanding of both front-end and back-end development allows me to create efficient, user-friendly web experiences.
 
@@ -41,7 +39,7 @@ I am proficient in Git and have been practicing version control in various perso
 <br>
 <h2> Programming Languages </h2>
 I have worked with a wide range of programming languages, including:
-C, Python, Java, JavaScript, C++, Erlang, Scala, Prolog, R, and SQL.
+Python, Java, JavaScript, C, C++, R, Erlang, Scala, Prolog.
 
 <br>
 <h2> Get in Touch </h2>

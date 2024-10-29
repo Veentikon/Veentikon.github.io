@@ -50,24 +50,24 @@ body { font-family: 'Open Sans', sans-serif; color: #fff; /* Use the namespace t
   .site-nav li { margin-right: 0; margin-bottom: 0.5rem; }
   .cta-button { margin-top: 1rem; } }
 @font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 700; src: url("https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff") format("woff"); }
-.projects-section { display: flex; flex-wrap: wrap; justify-content: space-between; color: #000; }
+.projects-section { display: flex; flex-direction: column; gap: 30px; }
 
-.project-category { width: 48%; margin-bottom: 20px; }
+.project-category { display: flex; flex-direction: column; margin-bottom: 30px; }
 
-.project-category h2 { display: flex; align-items: center; font-size: 24px; color: #fff; margin-bottom: 15px; }
+.project-category h2 { margin-bottom: 15px; }
 
-.project-category h2 i { margin-right: 10px; }
+.projects-row { display: flex; flex-wrap: wrap; gap: 20px; }
 
-.project-box { border: 1px solid #f8f9fa82; border-radius: 5px; padding: 15px; margin-bottom: 20px; background-color: #f8f9fa82; }
+.project-box { display: flex; flex-direction: column; justify-content: space-between; flex: 1 1 calc(30% - 15px); max-width: 30%; background-color: #f8f9fa82; color: black; margin: 10px; padding: 15px; transition: transform 0.2s ease-in-out; border: 1px solid #f8f9fa82; box-sizing: border-box; border-radius: 5px; }
 
-.project-box h3 { margin: 0 0 10px; font-size: 20px; color: #000; }
+.project-image { width: 30%; height: auto; max-width: 100%; display: block; margin: 10px auto 0; /* Adds space at the top */ }
 
-.project-box p { font-size: 14px; color: #000; }
+.project-footer { margin-top: auto; /* Pushes footer content to the bottom */ }
 
-.project-box a { color: #007bff; text-decoration: none; }
+.line-break { margin-top: 10px; margin-bottom: 10px; }
 
-.project-box a:hover { text-decoration: underline; }
+.project-box:hover { transform: scale(1.05); }
 
-.project-image { max-width: 100px; height: auto; margin: 10px 0; }
+.github-icon { font-size: 1.5em; color: #000; }
 
-.project-box i { font-size: 24px; color: #007bff; margin-top: 10px; }
+.github-icon:hover { color: #4078c0; }

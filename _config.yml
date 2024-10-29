@@ -2,7 +2,7 @@ theme: null
 
 author: "Vitalii Radzividlo"
 description: "This is a portfolio website created with jekyll from scratch" 
-title: "My Portfolio"
+title: "Vitalii Portfolio"
 email: "myEmail@mail.com"
 
 baseurl: "" # Leave blank for GitHub Pages root

@@ -3,52 +3,96 @@ layout: "default"
 ---
 
 
-<div class="projects-section">
+
+<!-- <div class="projects-section">
     {% for category in site.data.projects %}
-    <div class="project-category">
+    <div class="project-category"> -->
       <!-- Category Name and Icon -->
-      <h2><i class="{{ category.icon }}"></i> {{ category.name }}</h2>
+      <!-- <h2><i class="{{ category.icon }}"></i> {{ category.name }}</h2>
   
-      <!-- Loop through each project -->
-      {% for project in category.projects %}
-      <div class="project-box">
-        <h3>{{ project.name }}</h3>
-        <p>{{ project.description }}</p>
-  
-        <!-- Display image if available -->
-        {% if project.image %}
-        <img src="{{ site.baseurl }}/assets/images/projects/{{ project.image }}" alt="{{ project.name }} Logo" class="project-image">
-        {% endif %}
-  
-        <!-- GitHub Link -->
-        <p>
-          <a href="https://github.com/{{ project.github }}" target="_blank">GitHub</a>
-  
-          <!-- Conditional Links -->
-          {% if project.pypi %}
-          | <a href="https://pypi.org/project/{{ project.pypi }}" target="_blank">PyPi</a>
+      <div class="project-row"> -->
+        <!-- Loop through each project -->
+        <!-- {% for project in category.projects %}
+        <div class="project-box"> -->
+
+          <!-- Display image if available -->
+          <!-- {% if project.image %}
+          <img src="{{ site.baseurl }}/assets/images/projects/{{ project.image }}" alt="{{ project.name }} Logo" class="project-image">
           {% endif %}
-  
-          {% if project.npm %}
-          | <a href="https://www.npmjs.com/package/{{ project.npm }}" target="_blank">NPM</a>
-          {% endif %}
-  
-          {% if project.dockerhub %}
-          | <a href="https://hub.docker.com/r/{{ project.dockerhub }}" target="_blank">DockerHub</a>
-          {% endif %}
-  
-          {% if project.wordpress %}
-          | <a href="https://wordpress.org/plugins/{{ project.wordpress }}" target="_blank">WordPress</a>
-          {% endif %}
-        </p>
-  
-        <!-- Display icon if available -->
-        {% if project.icon %}
-        <i class="{{ project.icon }}"></i>
-        {% endif %}
+          
+          <h3>{{ project.name }}</h3>
+          <p>{{ project.description }}</p> -->
+
+          <!-- GitHub Link -->
+<!--           
+          <hr class="line-break">
+          
+          <p class="paragraph">
+            <a href="https://github.com/{{ project.github }}" target="_blank" title="GitHub">
+              <i class="fab fa-github github-icon"></i>
+            </a>       
+    
+            {% if project.pypi %}
+            | <a href="https://pypi.org/project/{{ project.pypi }}" target="_blank">PyPi</a>
+            {% endif %}
+    
+            {% if project.npm %}
+            | <a href="https://www.npmjs.com/package/{{ project.npm }}" target="_blank">NPM</a>
+            {% endif %}
+
+            {% if project.dockerhub %}
+            | <a href="https://hub.docker.com/r/{{ project.dockerhub }}" target="_blank">DockerHub</a>
+            {% endif %}
+    
+            {% if project.wordpress %}
+            | <a href="https://wordpress.org/plugins/{{ project.wordpress }}" target="_blank">WordPress</a>
+            {% endif %}
+          </p> -->
+    
+          <!-- Display icon if available -->
+          <!-- {% if project.icon %}
+          <i class="{{ project.icon }}"></i>
+          {% endif %} -->
+        <!-- </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
     {% endfor %}
-  </div>
+  </div> -->
   
+
+  <div class="projects-section">
+    {% for category in site.data.projects %}
+    <div class="project-category">
+      <h2><i class="{{ category.icon }}"></i> {{ category.name }}</h2>
+  
+      <div class="projects-row">
+        {% for project in category.projects %}
+        <div class="project-box">
+          {% if project.image %}
+          <img src="{{ site.baseurl }}/assets/images/projects/{{ project.image }}" alt="{{ project.name }} Logo" class="project-image">
+          {% endif %}
+          
+          <h3>{{ project.name }}</h3>
+          <p>{{ project.description }}</p>
+
+          <!-- Footer to align at the bottom -->
+          <div class="project-footer">
+            <hr class="line-break">
+            <p class="paragraph">
+              <a href="https://github.com/{{ project.github }}" target="_blank" title="GitHub">
+                <i class="fab fa-github github-icon"></i>
+              </a>
+              {% if project.pypi %} | <a href="https://pypi.org/project/{{ project.pypi }}" target="_blank">PyPi</a>{% endif %}
+              {% if project.npm %} | <a href="https://www.npmjs.com/package/{{ project.npm }}" target="_blank">NPM</a>{% endif %}
+              {% if project.dockerhub %} | <a href="https://hub.docker.com/r/{{ project.dockerhub }}" target="_blank">DockerHub</a>{% endif %}
+              {% if project.wordpress %} | <a href="https://wordpress.org/plugins/{{ project.wordpress }}" target="_blank">WordPress</a>{% endif %}
+            </p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+</div>
+
