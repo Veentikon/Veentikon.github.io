@@ -6,15 +6,15 @@ layout: default
 
 <h2> Hello! I’m Vitalii Radzividlo, a recent graduate from the University of Saskatchewan with a Bachelor of Arts and Science in Computer Science. I am passionate about applying the skills and knowledge I’ve gained through my studies to real-world projects and challenges. I am continuously striving to improve my expertise and stay up to date with the latest technologies.
 </h2>
+<hr>
 
 <br>
 <h2> Skills and Experience </h2>
-
-Over the course of my academic journey, I’ve explored a variety of fields within computer science, which has given me a broad skill set and a strong foundation for problem-solving in different domains: Cloud Computing, Web Development, Artificial Intelligence, GUI app development and Cybersecurity
+Over the course of my academic journey, I’ve explored a variety of fields within computer science, which has given me a broad skill set and a strong foundation for problem-solving in different domains: Cloud Computing, Web Development, Artificial Intelligence, GUI app development and Cybersecurity.
 
 <br>
 <h2> Full Stack Web Development </h2>
-I have experience building web applications using Node.js, React, and Docker. My understanding of both front-end and back-end development allows me to create efficient, user-friendly web experiences.
+I have foundational experience building web applications using tools like Node.js, React, and Docker. While I’m still developing my proficiency in full-stack development, I’m able to create user-friendly, static web projects, like the website you’re currently viewing.
 
 <br>
 <h2> Cloud Computing </h2>
@@ -39,8 +39,13 @@ I am proficient in Git and have been practicing version control in various perso
 <br>
 <h2> Programming Languages </h2>
 I have worked with a wide range of programming languages, including:
-Python, Java, JavaScript, C, C++, R, Erlang, Scala, Prolog.
+Python, Java, JavaScript, C, C++, R, Erlang, Scala and Prolog.
+
+<br>
+<h2> Cybersecurity </h2>
+The introductory cybersecurity course provided me with a solid foundation in core cybersecurity principles, covering essential topics such as threat identification, risk assessment, and security best practices. I learned about common vulnerabilities, basic cryptography, network security protocols, and strategies for protecting sensitive information against unauthorized access. This course also emphasized the importance of proactive security measures and helped me build an understanding of the evolving landscape of cyber threats.
 
 <br>
 <h2> Get in Touch </h2>
 I am always open to new opportunities and collaborations. If you are looking for a passionate developer with a diverse skill set and a drive to learn and grow, feel free to reach out!
+

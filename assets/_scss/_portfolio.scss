@@ -1,7 +1,6 @@
 @import 'variables';
 
 
-
 .projects-section {
   display: flex;
   flex-direction: column;
@@ -38,6 +37,44 @@
   border: 1px solid $footer-background-color;
   box-sizing: border-box;
   border-radius: 5px;
+}
+
+// Media query for tablets
+@media (max-width: 768px) {
+  .project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 calc(45% - 15px);
+    max-width: 100%;
+    background-color: $footer-background-color;
+    color: black;
+    margin: 10px;
+    padding: 15px;
+    transition: transform 0.2s ease-in-out;
+    border: 1px solid $footer-background-color;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+}
+
+// Media query for mobile devices
+@media (max-width: 480px) {
+  .project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 calc(85% - 15px);
+    max-width: 100%;
+    background-color: $footer-background-color;
+    color: black;
+    margin: 10px;
+    padding: 15px;
+    transition: transform 0.2s ease-in-out;
+    border: 1px solid $footer-background-color;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
 }
 
 .project-image {
