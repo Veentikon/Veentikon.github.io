@@ -47,6 +47,7 @@
     justify-content: space-between;
     flex: 1 1 calc(100% - 10px);
     max-width: 100%;
+    min-width: 100%;
     background-color: $footer-background-color;
     color: black;
     margin: 10px;
@@ -66,6 +67,7 @@
     justify-content: space-between;
     flex: 1 1 calc(100% - 8px);
     max-width: 100%;
+    min-width: 100%;
     background-color: $footer-background-color;
     color: black;
     margin: 10px;
