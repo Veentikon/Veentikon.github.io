@@ -10,19 +10,19 @@
 
     - name: Random name generator
       description: A GUI generator application to help gamers with creating original nicknames for their characters.
-      github: https://github.com/Veentikon/random-word-generator
+      github: /Veentikon/random-word-generator
       image: python-logo-only.png
       # npm: Example
       link: https://projects.tedivm.com/
     
     - name: Study helper
       description: GUI application written in java (javaFx), it is a study tool that includes features like calendar, task scheduling, priority queue and flashcards. I do not take credig for the whole project since it has been built in collaboration with my classmates.
-      github: https://github.com/Veentikon/random-word-generator
+      github: /Veentikon/random-word-generator
       image: pngegg.png
     
     - name: Chatroom commandline application
       description: A simple application that uses sockets and chatrooms for messaging, written in erlang.
-      github: https://github.com/Veentikon/ctl-socket-chatroom-scala
+      github: /Veentikon/ctl-socket-chatroom-scala
       image: erlang_logo_icon.png
       link: https://projects.tedivm.com/ # direct to project post when user clicks on the project
 
