@@ -3,7 +3,7 @@
   projects:
     - name: portfolio website
       description: Portfolio website built with jekyll, a static site generator, and hosted on github pages.
-      github: https://github.com/Veentikon/vitaliiradzividlo.github.io
+      github: https://github.com/Veentikon/Veentikon.github.io
       # pypi: example
       image: Jekyll_(software)_Logo.png
       link: https://projects.tedivm.com/
@@ -22,8 +22,8 @@
     
     - name: Chatroom commandline application
       description: A simple application that uses sockets and chatrooms for messaging, written in erlang.
-      github: https://github.com/Veentikon/random-word-generator
-      image: scala-logo-png-scala-logo.png
+      github: https://github.com/Veentikon/ctl-socket-chatroom-scala
+      image: erlang_logo_icon.png
       link: https://projects.tedivm.com/ # direct to project post when user clicks on the project
 
 
