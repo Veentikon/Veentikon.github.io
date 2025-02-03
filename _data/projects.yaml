@@ -1,39 +1,39 @@
-- name: CLIs
+- name: GUI
   icon: fas fa-terminal
   projects:
     - name: portfolio website
       description: Portfolio website built with jekyll, a static site generator, and hosted on github pages.
-      github: https://github.com/Veentikon/Veentikon.github.io
+      github: /Veentikon/Veentikon.github.io
       # pypi: example
       image: Jekyll_(software)_Logo.png
-      link: https://projects.tedivm.com/
+      # link: https://projects.tedivm.com/
 
     - name: Random name generator
       description: A GUI generator application to help gamers with creating original nicknames for their characters.
       github: /Veentikon/random-word-generator
       image: python-logo-only.png
       # npm: Example
-      link: https://projects.tedivm.com/
+      # link: https://projects.tedivm.com/
     
     - name: Study helper
-      description: GUI application written in java (javaFx), it is a study tool that includes features like calendar, task scheduling, priority queue and flashcards. I do not take credig for the whole project since it has been built in collaboration with my classmates.
-      github: /Veentikon/random-word-generator
+      description: GUI application written in java (javaFx), it is a study tool that includes features like calendar, task scheduling, priority queue and flashcards. I do not take credit for the whole project since it has been built in collaboration with my classmates.
+      github: /Veentikon/StudyBuddy
       image: pngegg.png
-    
-    - name: Chatroom commandline application
+
+
+- name: _CLIs
+  projects:
+      - name: Chatroom commandline application
       description: A simple application that uses sockets and chatrooms for messaging, written in erlang.
       github: /Veentikon/ctl-socket-chatroom-scala
       image: erlang_logo_icon.png
-      link: https://projects.tedivm.com/ # direct to project post when user clicks on the project
-
-
-- name: Misc
-  projects:
-  #   - name: Example
-  #     description: This project uses Font Awesome icons and is on Dockerhub.
-  #     github: Example/Example
-  #     dockerhub: Example/Example
-  #     icon: fas fa-file-medical-alt
+      # link: https://projects.tedivm.com/ # direct to project post when user clicks on the project
+      
+    # - name: Example
+    #   description: This project uses Font Awesome icons and is on Dockerhub.
+    #   github: Example/Example
+    #   dockerhub: Example/Example
+    #   icon: fas fa-file-medical-alt
 
   #   - name: Example
   #     description: This Wordpress Plugin is actually just an example project.
