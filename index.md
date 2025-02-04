@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<h1> Welcome to My Portfolio </h1>
+<h1> Vitalii radzividlo </h1>
 
-<h2> Hello! I’m Vitalii Radzividlo, a recent graduate from the University of Saskatchewan with a Bachelor of Arts and Science in Computer Science. I am passionate about applying the skills and knowledge I’ve gained through my studies to real-world projects and challenges. I am continuously striving to improve my expertise and stay up to date with the latest technologies.
+<h2> I am a recent graduate from the University of Saskatchewan with a Bachelor of Arts and Science in Computer Science. I am passionate about applying the skills and knowledge I’ve gained through my studies to real-world projects and challenges. I am continuously striving to improve my expertise and stay up to date with the latest technologies.
 </h2>
 <hr>
 
